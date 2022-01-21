@@ -1,1 +1,47 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: auto;
+  background: green;
+}
+.card {
+  margin-top: 100px;
+  display: flex;
+  margin: auto;
+  width: 32vw;
+  height: 44vw;
+  aspect-ratio: auto 1 / 1;
+  background-color: rgb(74, 126, 172);
+  border-radius: 20vw;
+}
+.number {
+  height: 80%;
+  width: 100%;
+  line-height: 30vw;
+}
+.number h1 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 8vw;
+}
+.row_icon_container.top {
+  background: black;
+}
+.row_icon_container.bottom {
+  background: black;
+}
+.icon_container {
+  width: 8vw;
+  height: 8vw;
+  float: right;
+  font-size: 8vw;
+}
+.icon_container.top {
+  background: red;
+  float: left;
+}
+.icon_container.bottom {
+  background: yellow;
+  position: relative;
+  transform: rotate(180deg);
+  vertical-align: middle;
+}
