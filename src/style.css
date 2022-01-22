@@ -4,44 +4,39 @@ body {
   background: green;
 }
 .card {
-  margin-top: 100px;
   display: flex;
   margin: auto;
+  margin-top: 10vh;
   width: 32vw;
   height: 44vw;
   aspect-ratio: auto 1 / 1;
   background-color: rgb(74, 126, 172);
   border-radius: 20vw;
 }
-.number {
+.number_container {
   height: 80%;
   width: 100%;
-  line-height: 30vw;
+  line-height: 28vw;
 }
-.number h1 {
+.number_container h1 {
   display: inline-block;
   vertical-align: middle;
   font-size: 8vw;
 }
-.row_icon_container.top {
-  background: black;
-}
-.row_icon_container.bottom {
-  background: black;
-}
+
 .icon_container {
   width: 8vw;
   height: 8vw;
   float: right;
   font-size: 8vw;
+  line-height: 7vw; /* = 44px/40px */
 }
 .icon_container.top {
-  background: red;
   float: left;
 }
 .icon_container.bottom {
-  background: yellow;
-  position: relative;
   transform: rotate(180deg);
-  vertical-align: middle;
+  position: relative;
+  bottom: 0vw;
+  left: 0vw;
 }
